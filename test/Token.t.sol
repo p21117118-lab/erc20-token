@@ -7,8 +7,8 @@ import {Token} from "../src/Token.sol";
 contract TokenTest is Test {
     Token internal token;
     address internal constant FEE_WALLET = 0x20a36F0ddeF3D771Dc68ef2F6b917c0A6036d53c;
-    address internal pair = address(0xPAIR);
-    address internal trader = address(0xB0B);
+    address internal pair = address(0x1111);
+    address internal trader = address(0x2222);
     uint256 internal constant SUPPLY = 1_000_000 ether;
 
     function setUp() public {
@@ -55,7 +55,7 @@ contract TokenTest is Test {
     }
 
     function test_WalletToWalletNoTax() public {
-        address other = address(0xACE);
+        address other = address(0x3333);
         uint256 feeBefore = token.balanceOf(FEE_WALLET);
 
         vm.prank(trader);
