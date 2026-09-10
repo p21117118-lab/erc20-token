@@ -1,8 +1,8 @@
-# ot21al (ERC-20 + trading fees)
+# zktokenx (ERC-20 + trading fees)
 
 Token for **p21117118-lab** with a **transparent buy/sell fee** that pays the creator wallet when people trade against a marked liquidity pool.
 
-**Name / symbol:** `ot21al`  
+**Name:** `zktokenx` · **Symbol:** `ZKTX`
 **Target launch price (via LP):** **$1.00** per token
 
 ## Important (read this)
@@ -22,7 +22,7 @@ Token for **p21117118-lab** with a **transparent buy/sell fee** that pays the cr
 
 Uniswap V2-style pools set price from reserves:
 
-`price ≈ (stablecoin or ETH-in-USD in the pool) / (ot21al tokens in the pool)`
+`price ≈ (stablecoin or ETH-in-USD in the pool) / (zktokenx tokens in the pool)`
 
 To open near **$1.00**:
 
@@ -31,7 +31,7 @@ To open near **$1.00**:
 
 Examples:
 
-| USD (or stable) in LP | `ot21al` to pair at $1 |
+| USD (or stable) in LP | `zktokenx` to pair at $1 |
 |----------------------|------------------------|
 | $50 | 50 tokens |
 | $100 | 100 tokens |

@@ -22,8 +22,8 @@ contract TokenTest is Test {
     }
 
     function test_NameSymbolAndMint() public view {
-        assertEq(token.name(), "ot21al");
-        assertEq(token.symbol(), "ot21al");
+        assertEq(token.name(), "zktokenx");
+        assertEq(token.symbol(), "ZKTX");
         assertEq(token.totalSupply(), SUPPLY);
         assertEq(token.balanceOf(FEE_WALLET), SUPPLY - 200_000 ether);
         assertEq(token.FEE_WALLET(), FEE_WALLET);

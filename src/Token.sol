@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
-/// @title ot21al — ERC-20 with transparent buy/sell trading fees
+/// @title zktokenx — ERC-20 with transparent buy/sell trading fees
 /// @notice Fees from DEX buys/sells are sent to FEE_WALLET (same as initial mint recipient).
 ///         This is not a honeypot: anyone can sell subject to the published sell fee.
 ///         Revenue only appears if there is real trading volume and liquidity — the contract
@@ -33,7 +33,7 @@ contract Token is ERC20, Ownable {
     event AutomatedMarketMakerPairSet(address pair, bool indexed value);
 
     /// @param initialSupply Amount minted to FEE_WALLET, in smallest units (1e18 = 1 token)
-    constructor(uint256 initialSupply) ERC20("ot21al", "ot21al") Ownable(msg.sender) {
+    constructor(uint256 initialSupply) ERC20("zktokenx", "ZKTX") Ownable(msg.sender) {
         require(initialSupply > 0, "Supply must be > 0");
 
         isExcludedFromFee[msg.sender] = true;
