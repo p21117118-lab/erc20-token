@@ -3,7 +3,8 @@
 Token for **p21117118-lab** with a **transparent buy/sell fee** that pays the creator wallet when people trade against a marked liquidity pool.
 
 **Name:** `zktokenx` · **Symbol:** `ZKTX`
-**Target launch price (via LP):** **$1.00** per token
+**Target launch price (via LP):** **$1.00** per token  
+**Target chain:** **Base** (cheaper gas than Ethereum mainnet)
 
 ## Important (read this)
 
@@ -60,7 +61,10 @@ forge install foundry-rs/forge-std
 forge test -vv
 ```
 
-## Deploy
+## Deploy (Base)
+
+See [DEPLOY_BASE.md](./DEPLOY_BASE.md). Example:
+
 
 ```bash
 forge create src/Token.sol:Token \
