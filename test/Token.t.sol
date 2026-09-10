@@ -10,7 +10,12 @@ contract TokenTest is Test {
     uint256 internal constant SUPPLY = 1_000_000 ether;
 
     function setUp() public {
-        token = new Token("Demo Token", "DEMO", SUPPLY);
+        token = new Token(SUPPLY);
+    }
+
+    function test_NameAndSymbol() public view {
+        assertEq(token.name(), "ot21al");
+        assertEq(token.symbol(), "ot21al");
     }
 
     function test_InitialSupplyGoesToRecipient() public view {
@@ -23,6 +28,6 @@ contract TokenTest is Test {
 
     function test_RevertWhenSupplyZero() public {
         vm.expectRevert(bytes("Supply must be > 0"));
-        new Token("X", "X", 0);
+        new Token(0);
     }
 }
