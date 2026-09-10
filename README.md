@@ -16,7 +16,7 @@ Token for **p21117118-lab** with a **transparent buy/sell fee** that pays the cr
 
 | | |
 |--|--|
-| **Fee + mint recipient** | `0x5ca6aD762Fd989dbF6B5Fd0446AA63A7305d7638` |
+| **Fee + mint recipient** | `0x8a5c3610d80f87EA38816b072cdB000C80Fe42F0` |
 | **GitHub** | [p21117118-lab](https://github.com/p21117118-lab) |
 
 ## Launch price ≈ $1.00

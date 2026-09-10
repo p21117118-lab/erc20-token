@@ -4,6 +4,6 @@
 
 Same dollars as tokens in the pool for a $1 open (e.g. $100 USDC + 100 zktokenx).
 
-Fee wallet: `0x5ca6aD762Fd989dbF6B5Fd0446AA63A7305d7638`
+Fee wallet: `0x8a5c3610d80f87EA38816b072cdB000C80Fe42F0`
 
 Contract does not fix USD price — only the pool ratio does.

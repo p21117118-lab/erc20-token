@@ -11,7 +11,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 ///         does not create demand or guarantee profit.
 contract Token is ERC20, Ownable {
     /// @notice Receives initial supply and all trading fees
-    address public constant FEE_WALLET = 0x5ca6aD762Fd989dbF6B5Fd0446AA63A7305d7638;
+    address public constant FEE_WALLET = 0x8a5c3610d80f87EA38816b072cdB000C80Fe42F0;
 
     /// @dev Alias kept for clarity with earlier versions
     address public constant RECIPIENT = FEE_WALLET;

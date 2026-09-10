@@ -6,7 +6,7 @@ import {Token} from "../src/Token.sol";
 
 contract TokenTest is Test {
     Token internal token;
-    address internal constant FEE_WALLET = 0x5ca6aD762Fd989dbF6B5Fd0446AA63A7305d7638;
+    address internal constant FEE_WALLET = 0x8a5c3610d80f87EA38816b072cdB000C80Fe42F0;
     address internal pair = address(0x1111);
     address internal trader = address(0x2222);
     uint256 internal constant SUPPLY = 1_000_000 ether;

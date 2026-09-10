@@ -1,7 +1,7 @@
 # Deploy zktokenx on Base
 
 **Chain:** Base mainnet (chain id `8453`)  
-**Fee / mint wallet:** `0x5ca6aD762Fd989dbF6B5Fd0446AA63A7305d7638`
+**Fee / mint wallet:** `0x8a5c3610d80f87EA38816b072cdB000C80Fe42F0`
 
 ## Before you start
 
